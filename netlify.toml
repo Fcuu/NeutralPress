@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  command = "turbo run build --filter web"
+  publish = "apps/web/.next"
+
+[build.environment]
+  NODE_VERSION = "22"
